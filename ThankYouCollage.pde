@@ -1,4 +1,7 @@
 //add thank you code here
+/* @pjs preload="thanks.png"; */
+/* @pjs preload="supreme.png"; */
+/* @pjs preload="pink.png"; */
 int value = 0;
 PImage img;
 
@@ -54,8 +57,6 @@ void mouseMoved() {
   //} else {
   //  value = 255;
   //}
-  @pjs preload="thanks.png";
-  @pjs preload="supreme.png";
-  @pjs preload="pink.png";
+ 
   
 }
