@@ -6,6 +6,7 @@ int value = 0;
 PImage img;
 PImage pink;
 PImage supreme;
+PImage fof;
 
 void setup() {
   background(0,0,0);
@@ -44,8 +45,8 @@ text("Esmond", 170, 400);
 void mouseMoved() {
   
   if (mouseY < 20) {
-    img = loadImage("fof.png");
-  image(img, 0, 0,250,150);
+    fof = loadImage("fof.png");
+  image(fof, 0, 0,250,150);
   } else {
     rect(0,0,250,150);
     value = 255;
