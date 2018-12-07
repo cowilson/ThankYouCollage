@@ -16,7 +16,7 @@ void setup() {
   
   
   pink = loadImage("pink.png");
-  image(pink, 350, 450,250,150);
+  image(pink, 350, 450);
   
   supreme = loadImage("supreme.png");
   image(supreme, 20, 400,250,150);
