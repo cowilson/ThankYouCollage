@@ -26,6 +26,13 @@ void setup() {
 }
 
 void draw() {
+
+pink = loadImage("pink.png");
+  image(pink, 350, 450,250,150);
+  
+  supreme = loadImage("supreme.png");
+  image(supreme, 20, 400,250,150);
+  
   if (keyPressed) {
     if (key == ' ' || key == ' ') {
       fill(255);
