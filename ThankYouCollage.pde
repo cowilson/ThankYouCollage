@@ -4,6 +4,8 @@
 /* @pjs preload="pink.png"; */
 int value = 0;
 PImage img;
+PImage pink;
+PImage supreme;
 
 void setup() {
   background(0,0,0);
@@ -12,11 +14,11 @@ void setup() {
   image(img, 0, 150);
   
   
-  img = loadImage("pink.png");
-  image(img, 350, 450,250,150);
+  pink = loadImage("pink.png");
+  image(pink, 350, 450,250,150);
   
-  img = loadImage("supreme.png");
-  image(img, 20, 400,250,150);
+  supreme = loadImage("supreme.png");
+  image(supreme, 20, 400,250,150);
   
   
   
