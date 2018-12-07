@@ -54,4 +54,8 @@ void mouseMoved() {
   //} else {
   //  value = 255;
   //}
+  @pjs preload="thanks.png";
+  @pjs preload="supreme.png";
+  @pjs preload="pink.png";
+  
 }
